@@ -1,0 +1,14 @@
+banana
+apple
+grapefruit
+banana
+banana
+ginger
+melon
+ginger
+melon
+grapefruit
+strawberries
+grapefruit
+strawberries
+banana
