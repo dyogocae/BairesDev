@@ -1,0 +1,14 @@
+Arquivo para teste contendo uma serie de palavras para contagem
+
+python java dotnet aws google apple microsoft
+
+o python e uma linguagem simples e didatica e o java e multiplataforma
+
+eu gosto de ambos pois sao linguagens intuitivas
+
+python
+java
+python
+dotnet
+
+final do meu arquivo
