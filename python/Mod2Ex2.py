@@ -31,10 +31,15 @@ if not (os.access(path, os.R_OK) and
         os.access(path, os.X_OK)):
     print('none')
 
-#-- get the owner of the path (INCOMPLETE)
-
-#-- get the device of the path (INCOMPLETE)
-
+#-- get the device of the path  
+#-- get the owner of the path 
+system = os.listdir(os.getcwd())
+for element in system:
+    if os.path.isfile(os.path.join(os.getcwd(),element)):
+        print("Device: ", os.stat(os.path.join(os.getcwd(),element)).st_dev)
+        print("Owner: ", os.stat(os.path.join(os.getcwd(),element)).st_uid) 
+        break
+            
 #-- get the date of creation of the path
 dtc =  time.strftime('%Y-%m-%d', 
                     time.localtime(os.path.getctime(os.getcwd())))
