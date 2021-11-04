@@ -1,0 +1,5 @@
+[
+    {"Id": 30, "estado": "Sao Paulo", "sigla": "SP"},
+    {"Id": 10, "estado": "Minas Gerais", "sigla": "MG"},
+    {"Id": 20, "estado": "Rio de Janeiro", "sigla": "RJ"}
+    ]
